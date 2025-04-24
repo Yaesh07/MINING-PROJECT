@@ -80,7 +80,7 @@ sap.ui.define([
             var that= this;
             oModel.update(entity, payload,{
                 success:function(response){
-                    MessageBox.success("record inserted",{
+                    MessageBox.success("record updated",{
                         onClose:function(){
                             var oRouter= that.getOwnerComponent().getRouter()
                             oRouter.navTo("RouteMiningView")

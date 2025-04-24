@@ -40,7 +40,7 @@
         <Text text="{i18n>LocationId}"/>
         </Column>
 
-        <Column>
+        <Column>    
         <Text text="{i18n>Description}"/>
         </Column>
 
